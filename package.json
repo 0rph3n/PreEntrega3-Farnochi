@@ -1,0 +1,30 @@
+{
+  "name": "preentrega3-farnochi",
+  "version": "1.0.0",
+  "description": "Esta es la tercer pre entrega del curso de diseño web. Los temas incluidos son SASS, SEO y Node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css" : "node-sass  --include-path scss resource/scss/styles.scss resource/css/styles.css",
+    "watch-css" : "nodemon -e scss -x \"npm run build-css""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0rph3n/PreEntrega3-Farnochi.git"
+  },
+  "keywords": [
+    "sass",
+    "seo",
+    "nodejs",
+    "node"
+  ],
+  "author": "Leandro Farnochi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0rph3n/PreEntrega3-Farnochi/issues"
+  },
+  "homepage": "https://github.com/0rph3n/PreEntrega3-Farnochi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
