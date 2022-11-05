@@ -365,6 +365,50 @@ body {
           font-size: 48px;
         }
       }
+      .boxlogin{
+        margin-top: 100px;
+        position: absolute;
+        left: 27%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 176px;
+        height: 141px;
+        background-color: #357286;
+        border: 2px solid #F5B40D;
+        border-radius: 30px;
+        padding-top: 20px;
+        @media screen and (min-width: 768px) {
+          left: 21%;
+          width: 480px;
+          height: 384px;
+        }
+        @media screen and (min-width: 1200px) {
+          left: 35%;
+          margin-top: 150px;
+        }
+        h2{
+          font-size: 12px;
+          @media screen and (min-width: 768px) {
+            font-size: 36px;
+          }
+        }
+        .loginform{
+          display: flex;
+          flex-direction: column;
+          font-size: 8px;
+          @media screen and (min-width: 768px) {
+            font-size: 22px;
+          }
+        }
+        p{
+          font-size: 6px;
+          @media screen and (min-width: 768px) {
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }
@@ -404,7 +448,6 @@ body {
     @media screen and (min-width: 1200px) {
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin-left: 200px;
       margin-right: 200px;
       font-size: 28px;
       font-weight: 600;
