@@ -334,6 +334,51 @@ body {
           padding: 8px;
         }
       }
+      /*Contacto*/
+      .contacto{
+        background: url(../img/unsplash_QckxruozjRg.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 30px;
+        position: relative;
+        height: 210px;
+        .contacto-text{
+          position: absolute;
+          font-size: 24px;
+          font-weight: 700;
+          padding-left: 18px;
+          padding-top: 8px;
+        }
+      }
+      .contactoform {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: 	flex;
+        flex-direction: column;
+        align-items: center;
+        .form1 {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          .inputform{
+            width: 200px;
+          }
+        }
+        .form2{
+          .inputform-coment{
+            height: 120px;
+            width: 310px;
+          }
+        }
+        button {
+          margin-top: 20px;
+        }
+      }
     }
   }
 }

@@ -151,6 +151,7 @@ body .tarjeta main {
   /*Login*/
   /*Musica*/
   /*Nosotros*/
+  /*Contacto*/
 }
 body .tarjeta main .imagentitulo {
   background-image: url(../img/bannerhome.png);
@@ -320,6 +321,48 @@ body .tarjeta main .nosotros-history .nosotros-history-text {
   text-align: center;
   padding: 8px;
 }
+body .tarjeta main .contacto {
+  background: url(../img/unsplash_QckxruozjRg.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 210px;
+}
+body .tarjeta main .contacto .contacto-text {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 18px;
+  padding-top: 8px;
+}
+body .tarjeta main .contactoform {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .tarjeta main .contactoform .form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+body .tarjeta main .contactoform .form1 .inputform {
+  width: 200px;
+}
+body .tarjeta main .contactoform .form2 .inputform-coment {
+  height: 120px;
+  width: 310px;
+}
+body .tarjeta main .contactoform button {
+  margin-top: 20px;
+}
 
 /**Footer**/
 .footer {
@@ -479,6 +522,38 @@ body .tarjeta main .nosotros-history .nosotros-history-text {
   body .tarjeta main .nosotros-history .nosotros-history-text {
     font-size: 36px;
   }
+  body .tarjeta main .contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size: 700px;
+    height: 400px;
+  }
+  body .tarjeta main .contacto .contacto-text {
+    font-size: 38px;
+    font-weight: 700;
+    padding-left: 48px;
+    padding-top: 28px;
+  }
+  body .tarjeta main .contactoform {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  body .tarjeta main .contactoform .form1 .inputform {
+    width: 500px;
+  }
+  body .tarjeta main .contactoform .form2 {
+    margin-top: 10px;
+  }
+  body .tarjeta main .contactoform .form2 .inputform-coment {
+    height: 200px;
+    width: 700px;
+  }
+  body .tarjeta main .contactoform button {
+    margin-top: 20px;
+    margin-bottom: 400px;
+  }
   body .footer {
     height: 125px;
   }
@@ -627,6 +702,18 @@ body .tarjeta main .nosotros-history .nosotros-history-text {
   }
   body .tarjeta main .nosotros-history .nosotros-history-text {
     font-size: 48px;
+  }
+  body .tarjeta main .contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size: 1200px;
+    height: 500px;
+  }
+  body .tarjeta main .contacto .contacto-text {
+    font-size: 46px;
+    font-weight: 700;
+    padding-left: 72px;
+    padding-top: 36px;
   }
   body .tarjeta .footer {
     height: 150px;
