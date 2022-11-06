@@ -303,6 +303,37 @@ body {
       table tbody td{
         text-align: left;
       }
+
+      /*Nosotros*/
+      .nosotros{
+        background: url(../img/unsplash_5kYKzH5Gwgk.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        height: 210px;
+        .nosotros-text{
+          position: absolute;
+          font-size: 32px;
+          padding-left: 18px;
+          padding-top: 8px;
+        }
+      }
+      .nosotros-history{
+        margin: 10px;
+        background-color: #38393a;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        .nosotros-history-text {
+          font-size: 18px;
+          text-align: center;
+          padding: 8px;
+        }
+      }
     }
   }
 }

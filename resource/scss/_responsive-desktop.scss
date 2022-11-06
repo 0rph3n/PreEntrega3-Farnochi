@@ -111,6 +111,23 @@
           margin-bottom: 180px;
           font-size: 16px;
         }
+        .nosotros {
+          background-size: 1200px;
+          height: 600px;
+          .nosotros-text {
+            font-size: 96px;
+          }
+        }
+        .nosotros-history {
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-top: 50px;
+          margin-bottom: 200px;
+          background-color: rgba($color: #38393a, $alpha: 0.7);
+          .nosotros-history-text {
+            font-size: 48px;
+          }
+        }
       }
       .footer {
         height: 150px;

@@ -150,6 +150,7 @@ body .tarjeta main {
   /*Artistas*/
   /*Login*/
   /*Musica*/
+  /*Nosotros*/
 }
 body .tarjeta main .imagentitulo {
   background-image: url(../img/bannerhome.png);
@@ -289,6 +290,35 @@ body .tarjeta main .table-mensual {
 }
 body .tarjeta main table tbody td {
   text-align: left;
+}
+body .tarjeta main .nosotros {
+  background: url(../img/unsplash_5kYKzH5Gwgk.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 210px;
+}
+body .tarjeta main .nosotros .nosotros-text {
+  position: absolute;
+  font-size: 32px;
+  padding-left: 18px;
+  padding-top: 8px;
+}
+body .tarjeta main .nosotros-history {
+  margin: 10px;
+  background-color: #38393a;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+body .tarjeta main .nosotros-history .nosotros-history-text {
+  font-size: 18px;
+  text-align: center;
+  padding: 8px;
 }
 
 /**Footer**/
@@ -432,6 +462,23 @@ body .tarjeta main table tbody td {
   body .tarjeta main .table-mensual {
     margin-bottom: 120px;
   }
+  body .tarjeta main .nosotros {
+    margin-top: 50px;
+    background-size: 700px;
+    height: 400px;
+  }
+  body .tarjeta main .nosotros .nosotros-text {
+    font-size: 52px;
+    padding-left: 50px;
+    padding-top: 24px;
+  }
+  body .tarjeta main .nosotros-history {
+    margin: 10px;
+    background-color: rgba(56, 57, 58, 0.7);
+  }
+  body .tarjeta main .nosotros-history .nosotros-history-text {
+    font-size: 36px;
+  }
   body .footer {
     height: 125px;
   }
@@ -563,6 +610,23 @@ body .tarjeta main table tbody td {
   body .tarjeta main .table-mensual {
     margin-bottom: 180px;
     font-size: 16px;
+  }
+  body .tarjeta main .nosotros {
+    background-size: 1200px;
+    height: 600px;
+  }
+  body .tarjeta main .nosotros .nosotros-text {
+    font-size: 96px;
+  }
+  body .tarjeta main .nosotros-history {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: rgba(56, 57, 58, 0.7);
+  }
+  body .tarjeta main .nosotros-history .nosotros-history-text {
+    font-size: 48px;
   }
   body .tarjeta .footer {
     height: 150px;
