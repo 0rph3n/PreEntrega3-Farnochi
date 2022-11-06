@@ -51,17 +51,13 @@ body {
     -webkit-box-shadow: 10px 10px 101px 34px rgba(0, 0, 0, 0.51);
     -moz-box-shadow: 10px 10px 101px 34px rgba(0, 0, 0, 0.51);
     border: solid yellow 2px;
-    @media screen and (min-width: 1200px) {
-      margin: 50px 50px 0px 50px;
-    }
+
+    /*Header*/
     .menu {
       display: grid;
       grid-template-columns: 20% 60% 20%;
       align-content: center;
       margin-top: 20px;
-      @media screen and (min-width: 1200px) {
-        margin-top: 50px;
-      }
       .logo {
         display: flex;
         justify-content: space-around;
@@ -70,20 +66,12 @@ body {
         .logo__img {
           width: 40px;
           height: 20px;
-          @media screen and (min-width: 768px) {
-            width: 60px;
-            height: 30px;
-          }
-          @media screen and (min-width: 1200px) {
-            width: 80px;
-            height: 40px;
-          }
         }
-      }
-      .logo:hover {
-        animation-name: logo;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
+        &:hover {
+          animation-name: logo;
+          animation-duration: 1s;
+          animation-iteration-count: 1;
+        }
       }
       @keyframes logo {
         0% {
@@ -130,15 +118,6 @@ body {
         padding-left: 0px;
         margin-bottom: 0px;
         margin-top: 0px;
-        @media screen and (min-width: 768px) {
-          justify-content: space-between;
-          font-size: 20px;
-          font-weight: 500;
-        }
-        @media screen and (min-width: 1200px) {
-          font-size: 30px;
-          font-weight: 500;
-        }
       }
       .btstyle {
         text-decoration: none;
@@ -152,37 +131,25 @@ body {
         box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         animation-duration: 1s;
-        @media screen and (min-width: 768px) {
-          font-size: 20px;
-          font-weight: 500;
-          width: 100px;
-          height: 40px;
+        &:hover {
+          transform: scale(1.1);
         }
-        @media screen and (min-width: 1200px) {
-          font-size: 25px;
-          font-weight: 600;
-          width: 110px;
-          height: 45px;
+        &:active {
+          transform: translate(6px, 6px);
         }
       }
-      .btstyle:hover {
-        transform: scale(1.1);
-      }
-      .btstyle:active {
-        transform: translate(6px, 6px);
-      }
+      
       .btlogin {
         text-align: center;
         text-justify: center;
         margin: auto;
-        @media screen and (min-width: 768px) {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
       }
     }
+
+    /*Main*/
     main {
+
+      /*Index*/
       .imagentitulo {
         background-image: url(../img/bannerhome.png);
         height: 310px;
@@ -191,14 +158,6 @@ body {
         background-position: center;
         position: relative;
         margin-top: 30px;
-        @media screen and (min-width: 768px) {
-          height: 390px;
-          margin-top: 60px;
-        }
-        @media screen and (min-width: 1200px) {
-          height: 700px;
-          margin-bottom: 200px;
-        }
         .imagentitulo__text {
           position: absolute;
           text-align: left;
@@ -206,23 +165,11 @@ body {
           font-size: 14px;
           line-height: 40px;
           left: 5%;
-          @media screen and (min-width: 768px) {
-            font-size: 24px;
-            line-height: 70px;
-          }
-          @media screen and (min-width: 1200px) {
-            font-size: 48px;
-            line-height: 80px;
-          }
         }
         .imagentitulo__button {
           position: absolute;
           top: 70%;
           left: 60%;
-          @media screen and (min-width: 1200px) {
-            top: 80%;
-            left: 80%;
-          }
         }
       }
       .record {
@@ -231,13 +178,6 @@ body {
         display: flex;
         justify-content: center;
         padding-top: 60px;
-        h2 {
-          @media screen and (min-width: 1200px) {
-            font-size: 56px;
-            font-weight: 600;
-            padding-bottom: 20px;
-          }
-        }
       }
       .boxrecord {
         position: relative;
@@ -254,86 +194,39 @@ body {
         border-radius: 30px;
         margin-left: 10px;
         margin-right: 10px;
-        @media screen and (min-width: 768px) {
-          height: 150px;
-        }
-        @media screen and (min-width: 1200px) {
-          height: 200px;
-          margin-bottom: 200px;
-        }
         .boxrecord__items {
           text-align: center;
           font-size: 10px;
           font-weight: 700;
-          @media screen and (min-width: 768px) {
-          font-size: 15px;
-          }
-          @media screen and (min-width: 1200px) {
-          font-size: 25px;
-          }
         }
         .icon__records {
-          width: 50px;
-          @media screen and (min-width: 768px) {
-          width: 60px;
-          }
-          @media screen and (min-width: 1200px) {
-          width: 80px;
-          }
+          width: 40px;
         }
       }
       .cita {
-        background-image: linear-gradient(
+          background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
           ),
           url(../img/citahome.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        height: 325px;
-        width: 100%;
-        margin-top: 70px;
-        margin-bottom: 120px;
-        padding-top: 20px;
-        @media screen and (min-width: 768px) {
-          height: 575px;
-          margin-top: 70px;
-          margin-bottom: 200px;
-          padding-top: 50px;
-        }
-        @media screen and (min-width: 1200px) {
-          height: 750px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          height: 325px;
           width: 100%;
-          margin-bottom: 300px;
-        }
-        .cita__text {
-          position: absolute;
-          font-weight: bold;
-          text-align: center;
-          font-size: 20px;
-          h2 {
-            @media screen and (min-width: 1200px) {
-            }
-            @media screen and (min-width: 1200px) {
-              font-size: 72px;
-              font-weight: 600;
-            }
-          }
-          @media screen and (min-width: 768px) {
-            font-size: 38px;
-          }
-          @media screen and (min-width: 1200px) {
-          font-size: 56px;
-          font-weight: 500;
-          text-align: center;
-          padding-left: 120px;
-          padding-right: 120px;
-          margin-top: 50px;
+          margin-top: 70px;
+          margin-bottom: 120px;
+          padding-top: 20px;
+          .cita__text {
+            position: absolute;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
           }
         }
-      }
+
+      /*Artistas*/
       .artistas {
         background-image: url(../img/unsplash_OKLqGsCT8qs.png);
         height: 100px;
@@ -346,25 +239,13 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 30px;
-        @media screen and (min-width: 768px) {
-          height: 120px;
-          padding-left: 80px;
-        }
-        @media screen and (min-width: 1200px) {
-          height: 200px;
-          padding-left: 200px;
+        .artistas__text {
+          position: absolute;
+          font-size: 24px;
         }
       }
-      .artistas__text {
-        position: absolute;
-        font-size: 24px;
-        @media screen and (min-width: 768px) {
-          font-size: 32px;
-        }
-        @media screen and (min-width: 1200px) {
-          font-size: 48px;
-        }
-      }
+
+      /*Login*/
       .boxlogin{
         margin-top: 100px;
         position: absolute;
@@ -379,35 +260,48 @@ body {
         border: 2px solid #F5B40D;
         border-radius: 30px;
         padding-top: 20px;
-        @media screen and (min-width: 768px) {
-          left: 21%;
-          width: 480px;
-          height: 384px;
-        }
-        @media screen and (min-width: 1200px) {
-          left: 35%;
-          margin-top: 150px;
-        }
-        h2{
+        h2 {
           font-size: 12px;
-          @media screen and (min-width: 768px) {
-            font-size: 36px;
-          }
         }
         .loginform{
           display: flex;
           flex-direction: column;
           font-size: 8px;
-          @media screen and (min-width: 768px) {
-            font-size: 22px;
-          }
         }
-        p{
+        p {
           font-size: 6px;
-          @media screen and (min-width: 768px) {
-            font-size: 20px;
-          }
         }
+      }
+
+      /*Musica*/
+      .musica{
+        background-image: url(../img/bannermusica.jpg);
+        height: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+        .musica__text{
+          width: 200px;
+          height: 50px;
+          position: absolute;
+        }
+      }
+      .table-semanal{
+        margin-top: 25px;
+        font-size: 10px;
+      }
+      .table-mensual{
+        margin-top: 25px;
+        margin-bottom: 120px;
+        font-size: 10px;
+      }
+      table tbody td{
+        text-align: left;
       }
     }
   }
@@ -428,12 +322,6 @@ body {
   border: 2px solid #1288b8;
   box-shadow: 7px -7px 25px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px 25px 0px 0px;
-  @media screen and (min-width: 768px) {
-    height: 125px;
-  }
-  @media screen and (min-width: 1200px) {
-    height: 150px;
-  }
   .footer__menu {
     display: flex;
     justify-content: space-around;
@@ -442,24 +330,10 @@ body {
     padding: 0;
     font-size: 10px;
     list-style: none;
-    @media screen and (min-width: 768px) {
-      font-size: 24px;
-    }
-    @media screen and (min-width: 1200px) {
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      margin-right: 200px;
-      font-size: 28px;
-      font-weight: 600;
-    }
     .logo1 {
       width: 40px;
       height: 20px;
       padding-left: 0px;
-      @media screen and (min-width: 768px) {
-        width: 60px;
-        height: 30px;
-      }
     }
   }
   .redes {
@@ -469,57 +343,33 @@ body {
     list-style: none;
     margin: 0;
     padding-left: 2rem;
-    @media screen and (min-width: 768px) {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: flex-end;
-      justify-content: flex-end;
-      max-height: 100px;
-      margin-right: 30px;
-    }
-    @media screen and (min-width: 1200px) {
-      flex-direction: row;
-    }
     .redes__sociales {
       width: 25px;
       transition-duration: 1s;
-      @media screen and (min-width: 768px) {
-        padding-right: 10px;
-        width: 50px;
+      &:hover {
+        transform: rotatex(360deg);
       }
-      @media screen and (min-width: 1200px) {
-        padding-right: 20px;
-        width: 70px;
-      }
-    }
-    .redes__sociales:hover {
-      transform: rotatex(360deg);
     }
   }
 }
 
 /*Artistas*/
-.row {
+.fila {
   margin-bottom: 120px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 150px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 170px;
-  }
 }
-.card {
+.cardbts {
   height: auto;
   margin-top: 30px;
   background-color: #38393a;
   border: 2px solid #f5b40d;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.card-title {
+.titlecrd {
   font-weight: 800;
 }
-.card-text {
+.textcrd {
   text-align: justify;
   font-weight: 600;
 }
+@import "responsive-tablet";
+@import "responsive-desktop";

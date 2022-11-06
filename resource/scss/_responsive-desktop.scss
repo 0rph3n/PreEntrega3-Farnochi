@@ -1,0 +1,134 @@
+@media (min-width: 1200px) {
+  body {
+    .tarjeta {
+      margin: 50px 50px 0px 50px;
+      header {
+        .menu {
+          margin-top: 50px;
+          .logo {
+            .logo__img {
+              width: 80px;
+              height: 40px;
+            }
+          }
+          .menu-nav {
+            font-size: 30px;
+            font-weight: 500;
+          }
+          .btstyle {
+            font-size: 25px;
+            font-weight: 600;
+            width: 110px;
+            height: 45px;
+          }
+        }
+      }
+      main{
+        .imagentitulo {
+          height: 400px;
+          margin-top: 50px;
+          margin-bottom: 80px;
+          .imagentitulo__text {
+            font-size: 38px;
+            line-height: 80px;
+          }
+          .imagentitulo__button {
+            top: 80%;
+            left: 80%;
+          }
+        }
+        .record {
+          font-size: 56px;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+        .boxrecord {
+          height: 200px;
+          margin-bottom: 140px;
+          .boxrecord__items {
+            font-size: 22px;
+          }
+          .icon__records {
+            width: 80px;
+          }
+        }
+        .cita {
+          height: 700px;
+          width: 100%;
+          margin-bottom: 200px;
+          .cita__text {
+            text-align: center;
+            padding-left: 120px;
+            padding-right: 120px;
+            margin-top: 50px;
+            h2 {
+              font-size: 48px;
+              font-weight: 600;
+            }
+            p {
+              font-size: 44px;
+            }
+          }
+        }
+        .artistas {
+          height: 200px;
+          padding-left: 200px;
+          .artistas__text {
+            font-size: 48px;
+          }
+        }
+        .fila {
+          margin-bottom: 170px;
+        }
+        .boxlogin {
+          width: 352px;
+          height: 282px;
+          left: 38%;
+          margin-top: 150px;
+          h2 {
+            font-size: 28px;
+          }
+          .loginform{
+            font-size: 16px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+        .musica {
+          height: 175px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          .musica__text {
+            width: 400px;
+            height: 150px;
+          }
+        }
+        .table-semanal {
+          font-size: 16px;
+        }
+        .table-mensual {
+          margin-bottom: 180px;
+          font-size: 16px;
+        }
+      }
+      .footer {
+        height: 150px;
+        .footer__menu {
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          margin-right: 200px;
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .redes {
+          flex-direction: row;
+          .redes__sociales {
+            padding-right: 20px;
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+}

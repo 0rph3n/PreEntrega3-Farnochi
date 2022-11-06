@@ -51,22 +51,14 @@ body .tarjeta {
   -webkit-box-shadow: 10px 10px 101px 34px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 10px 10px 101px 34px rgba(0, 0, 0, 0.51);
   border: solid yellow 2px;
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta {
-    margin: 50px 50px 0px 50px;
-  }
+  /*Header*/
+  /*Main*/
 }
 body .tarjeta .menu {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   align-content: center;
   margin-top: 20px;
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta .menu {
-    margin-top: 50px;
-  }
 }
 body .tarjeta .menu .logo {
   display: flex;
@@ -77,18 +69,6 @@ body .tarjeta .menu .logo {
 body .tarjeta .menu .logo .logo__img {
   width: 40px;
   height: 20px;
-}
-@media screen and (min-width: 768px) {
-  body .tarjeta .menu .logo .logo__img {
-    width: 60px;
-    height: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta .menu .logo .logo__img {
-    width: 80px;
-    height: 40px;
-  }
 }
 body .tarjeta .menu .logo:hover {
   animation-name: logo;
@@ -141,19 +121,6 @@ body .tarjeta .menu .menu-nav {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta .menu .menu-nav {
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: 500;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta .menu .menu-nav {
-    font-size: 30px;
-    font-weight: 500;
-  }
-}
 body .tarjeta .menu .btstyle {
   text-decoration: none;
   text-decoration: whitesmoke;
@@ -167,22 +134,6 @@ body .tarjeta .menu .btstyle {
   border-radius: 20px;
   animation-duration: 1s;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta .menu .btstyle {
-    font-size: 20px;
-    font-weight: 500;
-    width: 100px;
-    height: 40px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta .menu .btstyle {
-    font-size: 25px;
-    font-weight: 600;
-    width: 110px;
-    height: 45px;
-  }
-}
 body .tarjeta .menu .btstyle:hover {
   transform: scale(1.1);
 }
@@ -194,12 +145,11 @@ body .tarjeta .menu .btlogin {
   text-justify: center;
   margin: auto;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta .menu .btlogin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+body .tarjeta main {
+  /*Index*/
+  /*Artistas*/
+  /*Login*/
+  /*Musica*/
 }
 body .tarjeta main .imagentitulo {
   background-image: url(../img/bannerhome.png);
@@ -210,18 +160,6 @@ body .tarjeta main .imagentitulo {
   position: relative;
   margin-top: 30px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .imagentitulo {
-    height: 390px;
-    margin-top: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .imagentitulo {
-    height: 700px;
-    margin-bottom: 200px;
-  }
-}
 body .tarjeta main .imagentitulo .imagentitulo__text {
   position: absolute;
   text-align: left;
@@ -230,28 +168,10 @@ body .tarjeta main .imagentitulo .imagentitulo__text {
   line-height: 40px;
   left: 5%;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .imagentitulo .imagentitulo__text {
-    font-size: 24px;
-    line-height: 70px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .imagentitulo .imagentitulo__text {
-    font-size: 48px;
-    line-height: 80px;
-  }
-}
 body .tarjeta main .imagentitulo .imagentitulo__button {
   position: absolute;
   top: 70%;
   left: 60%;
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .imagentitulo .imagentitulo__button {
-    top: 80%;
-    left: 80%;
-  }
 }
 body .tarjeta main .record {
   font-size: 20px;
@@ -259,13 +179,6 @@ body .tarjeta main .record {
   display: flex;
   justify-content: center;
   padding-top: 60px;
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .record h2 {
-    font-size: 56px;
-    font-weight: 600;
-    padding-bottom: 20px;
-  }
 }
 body .tarjeta main .boxrecord {
   position: relative;
@@ -279,44 +192,13 @@ body .tarjeta main .boxrecord {
   margin-left: 10px;
   margin-right: 10px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxrecord {
-    height: 150px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .boxrecord {
-    height: 200px;
-    margin-bottom: 200px;
-  }
-}
 body .tarjeta main .boxrecord .boxrecord__items {
   text-align: center;
   font-size: 10px;
   font-weight: 700;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxrecord .boxrecord__items {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .boxrecord .boxrecord__items {
-    font-size: 25px;
-  }
-}
 body .tarjeta main .boxrecord .icon__records {
-  width: 50px;
-}
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxrecord .icon__records {
-    width: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .boxrecord .icon__records {
-    width: 80px;
-  }
+  width: 40px;
 }
 body .tarjeta main .cita {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/citahome.jpg);
@@ -330,47 +212,11 @@ body .tarjeta main .cita {
   margin-bottom: 120px;
   padding-top: 20px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .cita {
-    height: 575px;
-    margin-top: 70px;
-    margin-bottom: 200px;
-    padding-top: 50px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .cita {
-    height: 750px;
-    width: 100%;
-    margin-bottom: 300px;
-  }
-}
 body .tarjeta main .cita .cita__text {
   position: absolute;
   font-weight: bold;
   text-align: center;
   font-size: 20px;
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .cita .cita__text h2 {
-    font-size: 72px;
-    font-weight: 600;
-  }
-}
-@media screen and (min-width: 768px) {
-  body .tarjeta main .cita .cita__text {
-    font-size: 38px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .cita .cita__text {
-    font-size: 56px;
-    font-weight: 500;
-    text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-top: 50px;
-  }
 }
 body .tarjeta main .artistas {
   background-image: url(../img/unsplash_OKLqGsCT8qs.png);
@@ -385,31 +231,9 @@ body .tarjeta main .artistas {
   background-size: cover;
   margin-top: 30px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .artistas {
-    height: 120px;
-    padding-left: 80px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .artistas {
-    height: 200px;
-    padding-left: 200px;
-  }
-}
-body .tarjeta main .artistas__text {
+body .tarjeta main .artistas .artistas__text {
   position: absolute;
   font-size: 24px;
-}
-@media screen and (min-width: 768px) {
-  body .tarjeta main .artistas__text {
-    font-size: 32px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .artistas__text {
-    font-size: 48px;
-  }
 }
 body .tarjeta main .boxlogin {
   margin-top: 100px;
@@ -426,44 +250,45 @@ body .tarjeta main .boxlogin {
   border-radius: 30px;
   padding-top: 20px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxlogin {
-    left: 21%;
-    width: 480px;
-    height: 384px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body .tarjeta main .boxlogin {
-    left: 35%;
-    margin-top: 150px;
-  }
-}
 body .tarjeta main .boxlogin h2 {
   font-size: 12px;
-}
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxlogin h2 {
-    font-size: 36px;
-  }
 }
 body .tarjeta main .boxlogin .loginform {
   display: flex;
   flex-direction: column;
   font-size: 8px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxlogin .loginform {
-    font-size: 22px;
-  }
-}
 body .tarjeta main .boxlogin p {
   font-size: 6px;
 }
-@media screen and (min-width: 768px) {
-  body .tarjeta main .boxlogin p {
-    font-size: 20px;
-  }
+body .tarjeta main .musica {
+  background-image: url(../img/bannermusica.jpg);
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+}
+body .tarjeta main .musica .musica__text {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+}
+body .tarjeta main .table-semanal {
+  margin-top: 25px;
+  font-size: 10px;
+}
+body .tarjeta main .table-mensual {
+  margin-top: 25px;
+  margin-bottom: 120px;
+  font-size: 10px;
+}
+body .tarjeta main table tbody td {
+  text-align: left;
 }
 
 /**Footer**/
@@ -481,16 +306,6 @@ body .tarjeta main .boxlogin p {
   box-shadow: 7px -7px 25px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px 25px 0px 0px;
 }
-@media screen and (min-width: 768px) {
-  .footer {
-    height: 125px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer {
-    height: 150px;
-  }
-}
 .footer .footer__menu {
   display: flex;
   justify-content: space-around;
@@ -500,30 +315,10 @@ body .tarjeta main .boxlogin p {
   font-size: 10px;
   list-style: none;
 }
-@media screen and (min-width: 768px) {
-  .footer .footer__menu {
-    font-size: 24px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer .footer__menu {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-right: 200px;
-    font-size: 28px;
-    font-weight: 600;
-  }
-}
 .footer .footer__menu .logo1 {
   width: 40px;
   height: 20px;
   padding-left: 0px;
-}
-@media screen and (min-width: 768px) {
-  .footer .footer__menu .logo1 {
-    width: 60px;
-    height: 30px;
-  }
 }
 .footer .redes {
   display: flex;
@@ -533,8 +328,121 @@ body .tarjeta main .boxlogin p {
   margin: 0;
   padding-left: 2rem;
 }
-@media screen and (min-width: 768px) {
-  .footer .redes {
+.footer .redes .redes__sociales {
+  width: 25px;
+  transition-duration: 1s;
+}
+.footer .redes .redes__sociales:hover {
+  transform: rotatex(360deg);
+}
+
+/*Artistas*/
+.fila {
+  margin-bottom: 120px;
+}
+
+.cardbts {
+  height: auto;
+  margin-top: 30px;
+  background-color: #38393a;
+  border: 2px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titlecrd {
+  font-weight: 800;
+}
+
+.textcrd {
+  text-align: justify;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  body .tarjeta header .menu .menu-nav {
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  body .tarjeta header .menu .logo .logo__img {
+    width: 60px;
+    height: 30px;
+  }
+  body .tarjeta header .menu .btstyle {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100px;
+    height: 40px;
+  }
+  body .tarjeta header .menu .btlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .tarjeta main .imagentitulo {
+    height: 390px;
+    margin-top: 60px;
+  }
+  body .tarjeta main .imagentitulo .imagentitulo__text {
+    font-size: 24px;
+    line-height: 70px;
+  }
+  body .tarjeta main .boxrecord {
+    height: 150px;
+  }
+  body .tarjeta main .boxrecord .boxrecord__items {
+    font-size: 15px;
+  }
+  body .tarjeta main .boxrecord .icon__records {
+    width: 60px;
+  }
+  body .tarjeta main .cita {
+    height: 575px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+  }
+  body .tarjeta main .cita .cita__text {
+    font-size: 38px;
+  }
+  body .tarjeta main .artistas {
+    height: 140px;
+    padding-left: 80px;
+  }
+  body .tarjeta main .artistas .artistas__text {
+    font-size: 32px;
+  }
+  body .tarjeta main .fila {
+    margin-bottom: 150px;
+  }
+  body .tarjeta main .boxlogin {
+    left: 21%;
+    width: 480px;
+    height: 384px;
+  }
+  body .tarjeta main .boxlogin h2 {
+    font-size: 36px;
+  }
+  body .tarjeta main .boxlogin .loginform {
+    font-size: 22px;
+  }
+  body .tarjeta main .boxlogin p {
+    font-size: 20px;
+  }
+  body .tarjeta main .table-mensual {
+    margin-bottom: 120px;
+  }
+  body .footer {
+    height: 125px;
+  }
+  body .footer .footer__menu {
+    font-size: 24px;
+  }
+  body .footer .logo1 {
+    width: 60px;
+    height: 30px;
+  }
+  body .footer .redes {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -543,62 +451,136 @@ body .tarjeta main .boxlogin p {
     max-height: 100px;
     margin-right: 30px;
   }
+  body .footer .redes .redes__sociales {
+    padding-right: 10px;
+    width: 44px;
+  }
 }
-@media screen and (min-width: 1200px) {
-  .footer .redes {
+@media (min-width: 1200px) {
+  body .tarjeta {
+    margin: 50px 50px 0px 50px;
+  }
+  body .tarjeta header .menu {
+    margin-top: 50px;
+  }
+  body .tarjeta header .menu .logo .logo__img {
+    width: 80px;
+    height: 40px;
+  }
+  body .tarjeta header .menu .menu-nav {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  body .tarjeta header .menu .btstyle {
+    font-size: 25px;
+    font-weight: 600;
+    width: 110px;
+    height: 45px;
+  }
+  body .tarjeta main .imagentitulo {
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  body .tarjeta main .imagentitulo .imagentitulo__text {
+    font-size: 38px;
+    line-height: 80px;
+  }
+  body .tarjeta main .imagentitulo .imagentitulo__button {
+    top: 80%;
+    left: 80%;
+  }
+  body .tarjeta main .record {
+    font-size: 56px;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+  body .tarjeta main .boxrecord {
+    height: 200px;
+    margin-bottom: 140px;
+  }
+  body .tarjeta main .boxrecord .boxrecord__items {
+    font-size: 22px;
+  }
+  body .tarjeta main .boxrecord .icon__records {
+    width: 80px;
+  }
+  body .tarjeta main .cita {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+  body .tarjeta main .cita .cita__text {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 50px;
+  }
+  body .tarjeta main .cita .cita__text h2 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  body .tarjeta main .cita .cita__text p {
+    font-size: 44px;
+  }
+  body .tarjeta main .artistas {
+    height: 200px;
+    padding-left: 200px;
+  }
+  body .tarjeta main .artistas .artistas__text {
+    font-size: 48px;
+  }
+  body .tarjeta main .fila {
+    margin-bottom: 170px;
+  }
+  body .tarjeta main .boxlogin {
+    width: 352px;
+    height: 282px;
+    left: 38%;
+    margin-top: 150px;
+  }
+  body .tarjeta main .boxlogin h2 {
+    font-size: 28px;
+  }
+  body .tarjeta main .boxlogin .loginform {
+    font-size: 16px;
+  }
+  body .tarjeta main .boxlogin p {
+    font-size: 16px;
+  }
+  body .tarjeta main .musica {
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  body .tarjeta main .musica .musica__text {
+    width: 400px;
+    height: 150px;
+  }
+  body .tarjeta main .table-semanal {
+    font-size: 16px;
+  }
+  body .tarjeta main .table-mensual {
+    margin-bottom: 180px;
+    font-size: 16px;
+  }
+  body .tarjeta .footer {
+    height: 150px;
+  }
+  body .tarjeta .footer .footer__menu {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  body .tarjeta .footer .redes {
     flex-direction: row;
   }
-}
-.footer .redes .redes__sociales {
-  width: 25px;
-  transition-duration: 1s;
-}
-@media screen and (min-width: 768px) {
-  .footer .redes .redes__sociales {
-    padding-right: 10px;
-    width: 50px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer .redes .redes__sociales {
+  body .tarjeta .footer .redes .redes__sociales {
     padding-right: 20px;
     width: 70px;
   }
-}
-.footer .redes .redes__sociales:hover {
-  transform: rotatex(360deg);
-}
-
-/*Artistas*/
-.row {
-  margin-bottom: 120px;
-}
-@media screen and (min-width: 768px) {
-  .row {
-    margin-bottom: 150px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .row {
-    margin-bottom: 170px;
-  }
-}
-
-.card {
-  height: auto;
-  margin-top: 30px;
-  background-color: #38393a;
-  border: 2px solid #f5b40d;
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.card-title {
-  font-weight: 800;
-}
-
-.card-text {
-  text-align: justify;
-  font-weight: 600;
 }
 
 /*# sourceMappingURL=styles.css.map */

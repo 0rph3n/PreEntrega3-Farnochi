@@ -1,0 +1,110 @@
+@media (min-width: 768px) {
+    body {
+        .tarjeta {
+            header {
+                .menu {
+                    .menu-nav{
+                        justify-content: space-between;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    .logo{
+                        .logo__img {
+                            width: 60px;
+                            height: 30px;
+                        }
+                    }
+                    .btstyle {
+                        font-size: 20px;
+                        font-weight: 500;
+                        width: 100px;
+                        height: 40px;
+                    }
+                    .btlogin {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            main {
+                .imagentitulo {
+                    height: 390px;
+                    margin-top: 60px;
+                    .imagentitulo__text {
+                        font-size: 24px;
+                        line-height: 70px;
+                    }
+                }
+                .boxrecord {
+                    height: 150px;
+                    .boxrecord__items {
+                        font-size: 15px;
+                    }
+                    .icon__records {
+                        width: 60px;
+                    }
+                }
+                .cita {
+                    height: 575px;
+                    margin-top: 70px;
+                    margin-bottom: 200px;
+                    padding-top: 50px;
+                    .cita__text {
+                        font-size: 38px;
+                    }
+                }
+                .artistas {
+                    height: 140px;
+                    padding-left: 80px;
+                    .artistas__text {
+                        font-size: 32px;
+                    }
+                }
+                .fila {
+                    margin-bottom: 150px;
+                }
+                .boxlogin {
+                    left: 21%;
+                    width: 480px;
+                    height: 384px;
+                    h2 {
+                        font-size: 36px;
+                    }
+                    .loginform {
+                        font-size: 22px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                }
+                .table-mensual {
+                    margin-bottom: 120px;
+                }
+            }
+        }
+        .footer {
+            height: 125px;
+            .footer__menu {
+                font-size: 24px;
+            }
+            .logo1 {
+                width: 60px;
+                height: 30px;
+            }
+            .redes {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-end;
+                justify-content: flex-end;
+                max-height: 100px;
+                margin-right: 30px;
+                .redes__sociales {
+                    padding-right: 10px;
+                    width: 44px;
+                }
+            }
+        }
+    }
+}   
