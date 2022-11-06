@@ -175,6 +175,19 @@ body .tarjeta main .imagentitulo .imagentitulo__button {
   top: 70%;
   left: 60%;
 }
+body .tarjeta main .imagentitulo .imagentitulo__button .btstyle-title {
+  background: linear-gradient(98.38deg, #264653 1.82%, #2a9d8f 97.86%);
+  border: 1px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  animation-duration: 1s;
+}
+body .tarjeta main .imagentitulo .imagentitulo__button .btstyle-title:hover {
+  transform: scale(1.1);
+}
+body .tarjeta main .imagentitulo .imagentitulo__button .btstyle-title:active {
+  transform: translate(6px, 6px);
+}
 body .tarjeta main .record {
   font-size: 20px;
   font-weight: bold;
@@ -236,6 +249,51 @@ body .tarjeta main .artistas {
 body .tarjeta main .artistas .artistas__text {
   position: absolute;
   font-size: 24px;
+}
+body .tarjeta main .container .fila {
+  margin-bottom: 120px;
+}
+body .tarjeta main .container .fila .col-12 .cardbts {
+  height: auto;
+  margin-top: 30px;
+  background-color: #38393a;
+  border: 2px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body .tarjeta main .container .fila .col-12 .cardbts .card-body .titlecrd {
+  font-weight: 800;
+}
+body .tarjeta main .container .fila .col-12 .cardbts .card-body .textcrd {
+  text-align: justify;
+  font-weight: 600;
+}
+body .tarjeta main .container .fila .col-md-6 .cardbts {
+  height: auto;
+  margin-top: 30px;
+  background-color: #38393a;
+  border: 2px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body .tarjeta main .container .fila .col-md-6 .cardbts .card-body .titlecrd {
+  font-weight: 800;
+}
+body .tarjeta main .container .fila .col-md-6 .cardbts .card-body .textcrd {
+  text-align: justify;
+  font-weight: 600;
+}
+body .tarjeta main .container .fila .col-lg-4 .cardbts {
+  height: auto;
+  margin-top: 30px;
+  background-color: #38393a;
+  border: 2px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body .tarjeta main .container .fila .col-lg-4 .cardbts .card-body .titlecrd {
+  font-weight: 800;
+}
+body .tarjeta main .container .fila .col-lg-4 .cardbts .card-body .textcrd {
+  text-align: justify;
+  font-weight: 600;
 }
 body .tarjeta main .boxlogin {
   margin-top: 100px;
@@ -410,27 +468,6 @@ body .tarjeta main .contactoform button {
 }
 
 /*Artistas*/
-.fila {
-  margin-bottom: 120px;
-}
-
-.cardbts {
-  height: auto;
-  margin-top: 30px;
-  background-color: #38393a;
-  border: 2px solid #f5b40d;
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.titlecrd {
-  font-weight: 800;
-}
-
-.textcrd {
-  text-align: justify;
-  font-weight: 600;
-}
-
 @media (min-width: 768px) {
   body .tarjeta header .menu .menu-nav {
     justify-content: space-between;
@@ -459,6 +496,11 @@ body .tarjeta main .contactoform button {
   body .tarjeta main .imagentitulo .imagentitulo__text {
     font-size: 24px;
     line-height: 70px;
+  }
+  body .tarjeta main .imagentitulo .imagentitulo__button .btstyle-title {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
   }
   body .tarjeta main .boxrecord {
     height: 150px;
@@ -559,6 +601,8 @@ body .tarjeta main .contactoform button {
   }
   body .footer .footer__menu {
     font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   body .footer .logo1 {
     width: 60px;
@@ -566,12 +610,9 @@ body .tarjeta main .contactoform button {
   }
   body .footer .redes {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
-    max-height: 100px;
-    margin-right: 30px;
+    align-items: center;
+    justify-content: space-evenly;
   }
   body .footer .redes .redes__sociales {
     padding-right: 10px;
@@ -715,20 +756,17 @@ body .tarjeta main .contactoform button {
     padding-left: 72px;
     padding-top: 36px;
   }
-  body .tarjeta .footer {
+  body .footer {
     height: 150px;
   }
-  body .tarjeta .footer .footer__menu {
+  body .footer .footer__menu {
+    padding-right: 15px;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-right: 200px;
-    font-size: 28px;
-    font-weight: 600;
   }
-  body .tarjeta .footer .redes {
+  body .footer .redes {
     flex-direction: row;
   }
-  body .tarjeta .footer .redes .redes__sociales {
+  body .footer .redes .redes__sociales {
     padding-right: 20px;
     width: 70px;
   }

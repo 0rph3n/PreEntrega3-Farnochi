@@ -1,26 +1,42 @@
+$fonts: "Raleway", sans-serif;
+$linkdecoration: none;
+$linkcolor: whitesmoke;
+@mixin btStyle {
+  background: linear-gradient(98.38deg, #264653 1.82%, #2a9d8f 97.86%);
+  border: 1px solid #f5b40d;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  animation-duration: 1s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: translate(6px, 6px);
+  }
+}
 /**Fuentes**/
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: $fonts;
 }
 h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: $fonts;
 }
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: $fonts;
 }
 h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: $fonts;
 }
 a {
-  font-family: "Raleway", sans-serif;
+  font-family: $fonts;
 }
 a:link {
-  text-decoration: none;
-  color: whitesmoke;
+  text-decoration: $linkdecoration;
+  color: $linkcolor;
 }
 a:visited {
-  text-decoration: none;
-  color: whitesmoke;
+  text-decoration: $linkdecoration;
+  color: $linkcolor;
 }
 html {
   min-height: 100%;
@@ -126,17 +142,7 @@ body {
         font-size: 10px;
         width: 50px;
         height: 20px;
-        background: linear-gradient(98.38deg, #264653 1.82%, #2a9d8f 97.86%);
-        border: 1px solid #f5b40d;
-        box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        animation-duration: 1s;
-        &:hover {
-          transform: scale(1.1);
-        }
-        &:active {
-          transform: translate(6px, 6px);
-        }
+        @include btStyle();
       }
       
       .btlogin {
@@ -170,6 +176,9 @@ body {
           position: absolute;
           top: 70%;
           left: 60%;
+          .btstyle-title {
+            @include btStyle();
+          }
         }
       }
       .record {
@@ -242,6 +251,65 @@ body {
         .artistas__text {
           position: absolute;
           font-size: 24px;
+        }
+      }
+      .container {
+        .fila {
+          margin-bottom: 120px;
+          .col-12 {
+            .cardbts {
+              height: auto;
+              margin-top: 30px;
+              background-color: #38393a;
+              border: 2px solid #f5b40d;
+              box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+              .card-body{
+                .titlecrd {
+                  font-weight: 800;
+                }
+                .textcrd {
+                  text-align: justify;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+          .col-md-6 {
+            .cardbts {
+              height: auto;
+              margin-top: 30px;
+              background-color: #38393a;
+              border: 2px solid #f5b40d;
+              box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+              .card-body{
+                .titlecrd {
+                  font-weight: 800;
+                }
+                .textcrd {
+                  text-align: justify;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+          .col-lg-4 {
+            .cardbts {
+              height: auto;
+              margin-top: 30px;
+              background-color: #38393a;
+              border: 2px solid #f5b40d;
+              box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+              .card-body{
+                .titlecrd {
+                  font-weight: 800;
+                }
+                .textcrd {
+                  text-align: justify;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
         }
       }
 
@@ -430,22 +498,6 @@ body {
 }
 
 /*Artistas*/
-.fila {
-  margin-bottom: 120px;
-}
-.cardbts {
-  height: auto;
-  margin-top: 30px;
-  background-color: #38393a;
-  border: 2px solid #f5b40d;
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.titlecrd {
-  font-weight: 800;
-}
-.textcrd {
-  text-align: justify;
-  font-weight: 600;
-}
+
 @import "responsive-tablet";
 @import "responsive-desktop";

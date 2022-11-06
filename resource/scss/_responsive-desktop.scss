@@ -141,21 +141,18 @@
           }
         }
       }
-      .footer {
-        height: 150px;
-        .footer__menu {
-          justify-content: space-evenly;
-          flex-wrap: wrap;
-          margin-right: 200px;
-          font-size: 28px;
-          font-weight: 600;
-        }
-        .redes {
-          flex-direction: row;
-          .redes__sociales {
-            padding-right: 20px;
-            width: 70px;
-          }
+    }
+    .footer {
+      height: 150px;
+      .footer__menu {
+        padding-right: 15px;
+        justify-content: space-evenly;
+      }
+      .redes {
+        flex-direction: row;
+        .redes__sociales {
+          padding-right: 20px;
+          width: 70px;
         }
       }
     }
